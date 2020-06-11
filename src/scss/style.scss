@@ -1,0 +1,77 @@
+/*!
+Theme Name: Starter Theme
+Theme URI:
+Author: Martin Graebe
+Description: Wordpress Starter Theme
+Version: 1.0
+*/
+
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-semi: 600;
+  --fw-bold: 700;
+
+  --fs-h1: 1.5rem;
+  --fs-h2: 2.25rem;
+  --fs-xl: 4.5rem;
+  --fs-fo: 1.125rem;
+
+  --clr-main: #f8a9a9;
+  --clr-light: #ffffff;
+  --clr-dark:  #151313;
+  --clr-grey: grey;
+  --clr-footer-contact: lightgrey;
+  --clr-footer-site-map: grey;
+  --clr-footer-bottom: black;
+
+  --grid: 1fr;
+
+
+
+
+}
+html {
+  scroll-behavior: smooth;
+}
+html, body {
+  margin: 0;
+  font-size: 16px;
+
+  max-width: 100vw;
+
+  overflow-x:hidden;
+
+
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.content-container{
+  
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.alignfull {
+  margin: 32px calc(50% - 50vw);
+  max-width: 100vw;
+  width: 100vw;
+}
+.alignwide {
+  margin: 32px calc(25% - 25vw);
+  max-width: 100vw;
+  width: 100vw;
+}
+@media (min-width: 1300px) {
+  
+}
