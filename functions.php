@@ -1,6 +1,7 @@
 <?php
 
 require_once (get_template_directory().'/includes/widgets.php');
+require_once (get_template_directory().'/includes/options.php');
 
 // register styles and scripts
 add_action('wp_enqueue_scripts', 'starter_theme_enqueue');
