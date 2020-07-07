@@ -2,6 +2,8 @@
 
 require_once (get_template_directory().'/includes/widgets.php');
 require_once (get_template_directory().'/includes/options.php');
+require_once (get_template_directory().'/includes/cpt.php');
+require_once (get_template_directory().'/includes/meta-boxes.php');
 
 // register styles and scripts
 add_action('wp_enqueue_scripts', 'starter_theme_enqueue');
@@ -21,6 +23,7 @@ function starter_theme_add_theme_support(){
     add_theme_support( 'align-wide' );
     add_theme_support( 'editor-styles');
     add_theme_support( 'responsive-embeds' );
+    add_theme_support( 'post-thumbnails' ); 
     add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery' ) );
 
     // add theme colours to gutenberg
