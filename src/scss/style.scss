@@ -5,6 +5,7 @@ Author: Martin Graebe
 Description: Wordpress Starter Theme
 Version: 1.0
 */
+@import 'base/lightbox.scss';
 
 *, *::before, *::after{
   box-sizing: border-box;
