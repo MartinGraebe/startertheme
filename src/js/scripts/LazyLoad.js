@@ -1,6 +1,9 @@
 const imgs = document.querySelectorAll("[data-src]");
 
-
+// check if browser supports intersection observer 
+/* if(!"IntersectionObserver" in window){
+        // immediately  load all images
+} */
 function loadImage(image){
     const source = image.getAttribute("data-src");
     if(!source){
